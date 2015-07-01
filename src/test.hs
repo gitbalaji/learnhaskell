@@ -1,3 +1,6 @@
+
+echo  a = print a
+
 main = do
   print([1, 2, 3, 4, 5, 6])
   
@@ -7,3 +10,16 @@ main = do
   
   print([1, 4..15])
 
+  echo "balaji"
+
+  echo 1
+ 
+  let str1 = "Balaji"
+
+  let result = 
+	if( str1 == "Balaji") then True else False
+
+  print result	
+ 
+
+  
