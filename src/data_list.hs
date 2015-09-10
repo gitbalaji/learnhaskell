@@ -19,3 +19,4 @@ print $ span (< 3) [1..10]
 print $ break (> 3) [1..10]
 print $ elem 'c' "abcdefg"
 print $ find (> 2) [1..]
+print [True, False ..]

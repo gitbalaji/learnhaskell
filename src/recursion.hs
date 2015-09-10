@@ -4,4 +4,4 @@ maximum' [x] = x
 maximum' (x:xs) = max x (maximum' xs)
 
 main = do
- maximum [5,7,6,3,1]	
+ print $ maximum [5,7,6,3,1]	
